@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 - Popcorn Critics</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1><a href="index.html" style="color:white; text-decoration:none;">🍿 Popcorn Critics</a></h1>
+        </div>
+    </header>
+
+    <div class="form-container">
+        <h2>회원가입</h2>
+        <form onsubmit="return validateSignup()">
+            <div class="input-group">
+                <label for="regId">아이디 (4~12자리 영문/숫자)</label>
+                <input type="text" id="regId">
+            </div>
+            <div class="input-group">
+                <label for="regEmail">이메일</label>
+                <input type="email" id="regEmail" placeholder="example@domain.com">
+            </div>
+            <div class="input-group">
+                <label for="regPw">비밀번호 (8자리 이상)</label>
+                <input type="password" id="regPw">
+            </div>
+            <div class="input-group">
+                <label for="regPwConfirm">비밀번호 확인</label>
+                <input type="password" id="regPwConfirm">
+            </div>
+            
+            <button type="submit" class="submit-btn">가입하기</button>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

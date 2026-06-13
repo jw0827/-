@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popcorn Critics - 영화 평점 & 리뷰</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>🍿 Popcorn Critics</h1>
+            <div class="search-box">
+                <input type="text" placeholder="영화 제목을 검색하세요">
+                <button onclick="searchMovie()">검색</button>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">홈</a></li>
+                <li><a href="board.html">영화 게시판</a></li>
+                <li><a href="login.html">로그인</a></li>
+                <li><a href="signup.html">회원가입</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>당신의 인생 영화를 평가하고 공유하세요!</h2>
+        <p>Popcorn Critics는 솔직한 영화 리뷰와 평점을 나누는 공간입니다.</p>
+    </section>
+
+    <div class="main-container">
+        <main class="content">
+            <h3>🔥 현재 상영작 평점</h3>
+            <div class="movie-grid">
+        
+                <div class="movie-card">
+                    <img src="images/movie1.jpg" alt="어벤져스 엔드게임" class="movie-img">
+                    <h4>어벤져스: 엔드게임</h4>
+                    <p>평점: ⭐⭐⭐⭐⭐ (9.5)</p>
+                </div>
+        
+                <div class="movie-card">
+                    <img src="images/movie2.jpg" alt="인터스텔라" class="movie-img">
+                    <h4>인터스텔라</h4>
+                    <p>평점: ⭐⭐⭐⭐ (8.8)</p>
+                </div>
+        
+                <div class="movie-card">
+                    <img src="images/movie3.jpg" alt="기생충" class="movie-img">
+                    <h4>기생충</h4>
+                    <p>평점: ⭐⭐⭐⭐⭐ (9.8)</p>
+                </div>
+
+            </div>
+        </main>
+
+        <aside class="sidebar">
+            <h3>스폰서 광고</h3>
+            <div class="ad-banner">
+                <p>🎬 넷플릭스 1개월 무료 체험!</p>
+                <button>지금 확인하기</button>
+            </div>
+            <h3>오늘의 추천 감독</h3>
+            <ul>
+                <li>크리스토퍼 놀란</li>
+                <li>봉준호</li>
+                <li>스티븐 스필버그</li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Popcorn Critics. All rights reserved. </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

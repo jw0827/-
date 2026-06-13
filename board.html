@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화 게시판 - Popcorn Critics</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1><a href="index.html" style="color:white; text-decoration:none;">🍿 Popcorn Critics</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">홈</a></li>
+                <li><a href="board.html" class="active">영화 게시판</a></li>
+                <li><a href="login.html">로그인</a></li>
+                <li><a href="signup.html">회원가입</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container" style="flex-direction: column;">
+        <h2 style="margin-bottom: 20px;">자유 영화 게시판</h2>
+        
+        <table class="board-table">
+            <thead>
+                <tr>
+                    <th>번호</th>
+                    <th>제목</th>
+                    <th>작성자</th>
+                    <th>작성일</th>
+                    <th>추천수</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>3</td>
+                    <td>최근에 본 스릴러 영화 추천좀요</td>
+                    <td>영화광</td>
+                    <td>2026-06-14</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>마블 영화는 이제 끝물인가요?</td>
+                    <td>히어로매니아</td>
+                    <td>2026-06-13</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>인셉션 결말 해석 공유합니다.</td>
+                    <td>토템</td>
+                    <td>2026-06-12</td>
+                    <td>88</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div style="text-align: right; margin-top: 15px;">
+            <button class="submit-btn" style="width: auto; padding: 10px 20px;" onclick="alert('글쓰기 기능은 준비중입니다.')">글쓰기</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Popcorn Critics. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
